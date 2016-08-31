@@ -22,6 +22,6 @@ COPY http-port.sh $GLASSFISH_HOME/http-port.sh
 
 WORKDIR $GLASSFISH_HOME
 
-CMD asadmin start-domain --verbose domain1
+CMD /usr/local/glassfish4/bin/asadmin start-domain --verbose domain1
 
 
