@@ -23,6 +23,6 @@ COPY http-port.sh $PAYARA_HOME/http-port.sh
 
 WORKDIR $PAYARA_HOME
 
-CMD /usr/local/glassfish4/bin/asadmin start-domain --verbose domain1
+CMD /usr/local/payara41/bin/asadmin start-domain --verbose domain1
 
 
